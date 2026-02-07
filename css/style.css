@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  width: 450px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+}
+label {
+  margin-top: 15px;
+  display: block;
+}
+select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+button {
+  margin-top: 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
+.phone {
+  background: #f1f1f1;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 5px solid #007bff;
+}

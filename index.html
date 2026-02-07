@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recomendador de Celulares Mejorado</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📱 Recomendador de Celulares</h1>
+    <p>Contesta las preguntas y el sistema te recomienda los mejores teléfonos</p>
+
+    <form id="phoneForm">
+      <label>💰 Presupuesto máximo</label>
+      <select id="budget">
+        <option value="5000">Hasta $5,000</option>
+        <option value="8000">Hasta $8,000</option>
+        <option value="12000">Hasta $12,000</option>
+        <option value="20000">Más de $12,000</option>
+      </select>
+
+      <label>🎮 ¿Qué tan bueno quieres para juegos?</label>
+      <select id="games">
+        <option value="low">No muy importante</option>
+        <option value="medium">Medio</option>
+        <option value="high">Muy importante</option>
+      </select>
+
+      <label>📸 ¿Qué tan bueno quieres para fotos y videos?</label>
+      <select id="camera">
+        <option value="low">No muy importante</option>
+        <option value="medium">Medio</option>
+        <option value="high">Muy importante</option>
+      </select>
+
+      <label>📱 ¿Qué tan bueno quieres para redes sociales?</label>
+      <select id="social">
+        <option value="low">No muy importante</option>
+        <option value="medium">Medio</option>
+        <option value="high">Muy importante</option>
+      </select>
+
+      <label>📺 Importancia de la pantalla</label>
+      <select id="screen">
+        <option value="low">No muy importante</option>
+        <option value="medium">Medio</option>
+        <option value="high">Muy importante</option>
+      </select>
+
+      <button type="submit">Recomendar</button>
+    </form>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
