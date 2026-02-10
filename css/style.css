@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-body {
+body, html {
   font-family: Arial, sans-serif;
   font-size: 16px;
   background: #f4f4f4;
@@ -13,34 +13,47 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 50%;
   margin: 4% auto;
   background: white;
   padding: 2%;
-  border-radius: 8px;
+  border-radius: 10vw;
 }
 
-h1 {
+h1, p {
   text-align: center;
+  margin: 0 0 2% 0;
+  color: rgb(82, 111, 124);
 }
 
 label {
   margin: 2% 0 0 0;
   display: block;
+  color: rgb(82, 111, 124);
+  width: 100%;
 }
 
 select, button {
+  background: transparent;
+  border: 2px solid rgb(99, 130, 143);
+  border-radius: 50vw;
+  color: rgb(99, 130, 143);
+  font-size: 100%;
   width: 100%;
   padding: 1.5%;
   margin: 1.5% 0 0 0 ;
 }
 
 button {
-  margin: 5% 0 0 0;
-  background: #007bff;
-  color: white;
-  border: none;
+  background: transparent;
+  border: 2px solid rgb(99, 130, 143);
+  border-radius: 50vw;
+  color: rgb(99, 130, 143);
   cursor: pointer;
+  font-size: 2vw;
+  transition: all 0.3s ease-in-out;
+  width: 30%;
 }
 
 button:hover {
@@ -48,9 +61,27 @@ button:hover {
 }
 
 .phone {
+  width: 40%;
+  background: transparent;
+  border: 2px solid rgb(99, 130, 143);
+  border-radius: 2vw;
   background: #f1f1f1;
   margin: 5% 0 0 0;
   padding: 2%;
-  border-radius: 6px;
   border-left: 5px solid #007bff;
+}
+
+#results {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 120%;
+  flex-wrap: wrap;
+}
+
+#phoneForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
