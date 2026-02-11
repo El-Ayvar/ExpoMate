@@ -38,7 +38,7 @@ label {
 select, button {
   background: transparent;
   border: 2px solid rgb(99, 130, 143);
-  border-radius: 50vw;
+  border-radius: 2vw;
   color: rgb(99, 130, 143);
   font-size: 100%;
   width: 100%;
@@ -63,7 +63,11 @@ button:hover {
 }
 
 .phone {
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 90%;
+  width: auto;
   background: transparent;
   border: 2px solid rgb(99, 130, 143);
   border-radius: 2vw;
@@ -73,8 +77,13 @@ button:hover {
   border-left: 5px solid #007bff;
 }
 
+.pPhone {
+  margin: 2% 0 2% 0;
+  font-size: 90%;
+}
+
 strong {
-  font-size: 120%;
+  font-size: 110%;
   color: rgb(99, 130, 143);
   width: 100%;
 }
@@ -97,7 +106,7 @@ strong {
 @media (min-width: 769.98px) {
   
 .container {
-  width: 60%;
+  width: 65%;
   margin: 4% auto;
   padding: 2%;
   border-radius: 5vw;
@@ -120,7 +129,7 @@ label {
 
 select, button {
   border: 2px solid rgb(99, 130, 143);
-  border-radius: 50vw;
+  border-radius: 1%;
   font-size: 120%;
   width: 100%;
   padding: 1.5%;
@@ -139,12 +148,20 @@ button {
 }
 
 .phone {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  font-size: 70%;
+  width: auto;
   border: 2px solid rgb(99, 130, 143);
   border-radius: 2vw;
   margin: 5% 0 0 0;
   padding: 2%;
   border-left: 5px solid #007bff;
+}
+
+.pPhone {
+  margin: 2% 0 2% 0;
+  font-size: 120%;
 }
 
 #results {

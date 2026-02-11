@@ -93,12 +93,12 @@ function showResults(list) {
   list.forEach(p => {
     results.innerHTML += `
       <div class="phone">
-        <strong>${p.name}</strong><br>
-        💰 Precio: $${p.price}<br>
-        🎮 Rendimiento: ${p.performance}/10<br>
-        📸 Cámara: ${p.camera} MP<br>
-        📺 Pantalla: ${p.screen}"<br>
-        🏆 Puntaje: ${p.score}
+        <strong>${p.name}</strong>
+        <p class="pPhone">💰 Precio: $${p.price}</p>
+        <p class="pPhone">🎮 Rendimiento: ${p.performance}/10</p>
+        <p class="pPhone">📸 Cámara: ${p.camera} MP</p>
+        <p class="pPhone">📺 Pantalla: ${p.screen}"</p>
+        <p class="pPhone">🏆 Puntaje: ${p.score}</p>
       </div>
     `;
   });
