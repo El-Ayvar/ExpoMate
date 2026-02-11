@@ -21,7 +21,15 @@ body, html {
   border-radius: 5vw;
 }
 
-h1, p {
+h1 {
+  font-size: 7vw;
+  text-align: center;
+  margin: 0 0 2% 0;
+  color: rgb(82, 111, 124);
+}
+
+p {
+  font-size: 4vw;
   text-align: center;
   margin: 0 0 2% 0;
   color: rgb(82, 111, 124);
@@ -29,7 +37,7 @@ h1, p {
 
 label {
   margin: 2% 0 0 0;
-  font-size: 90%;
+  font-size: 3vw;
   display: block;
   color: rgb(82, 111, 124);
   width: 100%;
@@ -40,7 +48,7 @@ select, button {
   border: 2px solid rgb(99, 130, 143);
   border-radius: 2vw;
   color: rgb(99, 130, 143);
-  font-size: 100%;
+  font-size: 3vw;
   width: 100%;
   padding: 1.5%;
   margin: 2.5% 0 0 0 ;
@@ -67,7 +75,7 @@ button:hover {
   flex-direction: column;
   align-items: flex-start;
   font-size: 80%;
-  width: auto;
+  width: 38vw;
   background: transparent;
   border: 2px solid rgb(99, 130, 143);
   border-radius: 2vw;
@@ -79,13 +87,12 @@ button:hover {
 
 .pPhone {
   margin: 2% 0 2% 0;
-  font-size: 85%;
+  font-size: 3.2vw;
 }
 
 strong {
-  font-size: 110%;
+  font-size: 3vw;
   color: rgb(99, 130, 143);
-  width: 100%;
 }
 
 #results {
@@ -112,25 +119,25 @@ strong {
   border-radius: 5vw;
 }
 
-h1, p {
+p {
   margin: 0 0 2% 0;
-  font-size: 150%;
+  font-size: 2vw;
 }
 
 h1 {
-  font-size: 220%;
+  font-size: 3vw;
 }
 
 label {
   margin: 2% 0 0 0;
-  font-size: 130%;
+  font-size: 1.5vw;
   width: 100%;
 }
 
 select, button {
   border: 2px solid rgb(99, 130, 143);
   border-radius: 1vw;
-  font-size: 120%;
+  font-size: 1.5vw;
   width: 100%;
   padding: 1.5%;
   margin: 1.5% 0 0 0 ;
@@ -150,8 +157,7 @@ button {
 .phone {
   display: flex;
   flex-direction: column;
-  font-size: 70%;
-  width: auto;
+  width: 30%;
   border: 2px solid rgb(99, 130, 143);
   border-radius: 2vw;
   margin: 5% 0 0 0;
@@ -161,12 +167,15 @@ button {
 
 .pPhone {
   margin: 2% 0 2% 0;
-  font-size: 120%;
+  font-size: 1.3vw;
 }
 
+strong {
+  font-size: 1.5vw;
+  color: rgb(99, 130, 143);
+}
 #results {
   width: 100%;
-  font-size: 120%;
 }
 
 #phoneForm {
